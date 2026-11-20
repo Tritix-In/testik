@@ -15,8 +15,10 @@ int main(void) {
     printf("%d\n", res);
 
     for (int i = 0; i < 10; i++) {
-        printf("%d", i);
+        printf("%d\n", i);
     }
+
+    printf("ветка retro\n");
 
     return 0;
 }
