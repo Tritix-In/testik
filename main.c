@@ -14,5 +14,7 @@ int main(void) {
     int res = add(a, b);
     printf("%d\n", res);
 
+    printf("Это изменение файла!!!\n");
+
     return 0;
 }
