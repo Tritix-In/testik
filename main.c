@@ -14,9 +14,9 @@ int main(void) {
     int res = add(a, b);
     printf("%d\n", res);
 
-    printf("Это изменение файла!!!\n");
-
-    printf("Ебаать все сломалось нахуй!!\n");
+    for (int i = 0; i < 10; i++) {
+        printf("%d", i);
+    }
 
     return 0;
 }
